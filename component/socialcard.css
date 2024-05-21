@@ -11,7 +11,7 @@ body{
    
     border-radius: 8px;
     padding: 16px;
-    max-width:  55%;
+    max-width:  50%;
     height: 500px;
     margin: 10% auto;
     background-color: #fff;
@@ -75,7 +75,7 @@ body{
     width:30%;
     height: 90%;
     object-fit: cover;
-    margin-left: 20%;
+    margin-left: 10%;
    
   }
 
@@ -89,7 +89,7 @@ body{
 
   .profile{
     display: flex;
-    width: 20vh;
+    width: 25vh;
     height: 20%;
     font-size: 10px;
     font-weight: bolder;
