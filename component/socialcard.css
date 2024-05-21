@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+  background-color: rgb(235, 229, 229);
+}
+.social-card {
+   
+    border-radius: 8px;
+    padding: 16px;
+    max-width:  55%;
+    height: 500px;
+    margin: 10% auto;
+    background-color: #fff;
+   
+    
+  }
+
+  .logo{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+  }
+
+  .para-logo{
+    font-size: 15px;
+    
+  }
+  .heading{
+    font-size: 17px;
+    font-weight: 900;
+  }
+
+  .container-logo{
+    display: flex;
+
+    gap:3px;
+    
+   
+  }
+  
+
+  .outer-logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+   
+  }
+
+  .flex-container{
+    display: flex;
+  }
+
+  .containerinside{
+    border:2px solid silver;
+    margin-top: 10px;
+    height: 350px;
+    border-radius: 5px;
+   
+  }
+
+  .logo-inside{
+    width:50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 10px 10px;
+  }
+
+  .profile-inside{
+    width:30%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 20%;
+   
+  }
+
+  .containerimage{
+    background-color: #ffa003;
+    height: 70%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+  }
+
+  .profile{
+    display: flex;
+    width: 20vh;
+    height: 20%;
+    font-size: 10px;
+    font-weight: bolder;
+  
+   
+   align-items: center;
+   color: #ffa003;
+   background-color: white;
+   align-self: flex-end;
+   margin-top: 35px;
+   margin-right: 5px;
+  }
+
+  .headingimage{
+     align-self: center;
+     margin: 10px 0;
+     text-align: center;
+     font-size: 40px;
+     color: white;
+
+  }
+  .belowinsidecontainer{
+    padding: 3%;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .username{
+    font-size: 17px;
+    margin-top: 2px;
+    color:grey;
+  }
+
+  .paracaption{
+    line-height: 1;
+    
+  }
+
+  
+
+
+  .chat-icon-container {
+    
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 0px;
+  }
+
+
+  .icon{
+   font-size: 22px;
+   cursor: pointer;
+  
+  }
+  
+  .icons-gap{
+   
+    display: flex;
+    align-items: center;
+  }
+
+  .counter{
+    margin-left: 15px;
+  }
+  
+
+  .heart-icon,.clicked {
+    color: red;
+  }
+
+  .retweet-icon,.clicked {
+    color: rgb(47, 228, 31);
+  }
+
+  .hrabove{
+    margin-bottom: 20px;
+    color: rgb(216, 198, 198);
+    background-color: rgb(216, 198, 198); 
+  }
+
+  .hrbottom{
+    margin-top: 20px;
+    color: gray;
+    background-color: rgb(216, 198, 198); 
+    
+  }
+
+
+  @media (max-width: 415px) {
+    .social-card {
+   
+      max-width:  85%;
+    
+    }
+    .logo{
+      width:5vh;
+      height:5vh;
+    }
+  
+    .para-logo{
+      font-size: 15px;
+      }
+
+      .heading{
+        font-size: 15px;
+        font-weight: 900;
+      }
+
+      .logo-inside{
+        width:5vh;
+        height: 5vh;
+        
+      }
+      .profile{
+       
+        width: 19vh;
+        height: 18%;
+        font-size: 8px;
+       margin-top: 20px;
+       margin-right: 5px;
+      }
+  
+
+      .profile-inside{
+        width:30%;
+      
+        object-fit: cover;
+        margin-left: 10%;
+       
+      }
+
+      .headingimage{
+        align-self: center;
+        margin: 20px 0;
+        font-size: 30px;
+        color: white;
+   
+     }
+
+  }
+
+
+  @media screen and (min-width: 400px) and (max-width: 1000px) {
+    .social-card {
+   
+      max-width:  85%;
+    
+    }
+    .logo{
+      width:5vh;
+      height:5vh;
+    }
+  
+    .para-logo{
+      font-size: 15px;
+      }
+
+      .heading{
+        font-size: 15px;
+        font-weight: 900;
+      }
+
+      .logo-inside{
+        width:5vh;
+        height: 5vh;
+        
+      }
+      .profile{
+       
+        width: 19vh;
+        height: 18%;
+        font-size: 8px;
+       margin-top: 20px;
+       margin-right: 5px;
+      }
+  
+
+      .profile-inside{
+        width:30%;
+      
+        object-fit: cover;
+        margin-left: 10%;
+       
+      }
+
+      .headingimage{
+        align-self: center;
+        margin: 20px 0;
+        font-size: 30px;
+        color: white;
+   
+     }
+
+  }
