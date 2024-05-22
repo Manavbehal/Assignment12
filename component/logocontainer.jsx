@@ -18,7 +18,7 @@ function logocontainer() {
           </div>
           <div className='container-belowlogo'>
             <p>Learning React? Start Small.</p>
-            <p>{'{'} author: <span>@dceddia</span>{'}'} </p>
+            <p>{'{'} author: <a href="#">@dceddia</a>{'}'} </p>
           </div>
           </div>
           </div>
