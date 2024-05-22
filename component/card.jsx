@@ -16,7 +16,7 @@ function Card() {
       <img src={logo} alt="Logo" className="logo-inside" />
       <h1 className='headingimage'>Learning React? Start Small</h1>
       <div className='profile'>
-         <h1 style={{ marginLeft: '10px' }}>Dave Ceddia</h1>
+         <h1 style={{ marginLeft: '10px' }} className='headingprofile'>Dave Ceddia</h1>
          <img src={profile} alt="Logo" className="profile-inside" />
       </div>
       </div>

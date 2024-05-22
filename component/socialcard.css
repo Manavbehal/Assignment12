@@ -72,11 +72,11 @@ body{
   }
 
   .profile-inside{
-    width:30%;
-    height: 90%;
+    width:27%;
+    height: 40px;
     object-fit: cover;
-    margin-left: 10%;
-   
+   margin-left: 10px;
+    margin-right: 4px;
   }
 
   .containerimage{
@@ -89,9 +89,9 @@ body{
 
   .profile{
     display: flex;
-    width: 25vh;
-    height: 20%;
-    font-size: 10px;
+    width: 30vh;
+    height: 47px;
+    font-size: 9px;
     font-weight: bolder;
   
    
@@ -219,7 +219,7 @@ body{
       
         object-fit: cover;
         margin-left: 10%;
-       
+        margin-right: 2px;
       }
 
       .headingimage{
@@ -229,7 +229,11 @@ body{
         color: white;
    
      }
-
+     .belowinsidecontainer{
+     
+      font-size: 15px;
+      
+    }
   }
 
 
@@ -240,8 +244,8 @@ body{
     
     }
     .logo{
-      width:5vh;
-      height:5vh;
+      width:7vh;
+      height:40px;
     }
   
     .para-logo{
@@ -254,25 +258,25 @@ body{
       }
 
       .logo-inside{
-        width:5vh;
-        height: 5vh;
+        width:7vh;
+        height: 40px;
         
       }
       .profile{
        
-        width: 19vh;
-        height: 18%;
-        font-size: 8px;
-       margin-top: 20px;
+        width: 30vh;
+        height: 45px;
+        font-size: 9px;
+       margin-top: 55px;
        margin-right: 5px;
       }
   
 
       .profile-inside{
-        width:30%;
+        width:27%;
       
         object-fit: cover;
-        margin-left: 10%;
+        margin-right: 1px;
        
       }
 
@@ -283,5 +287,39 @@ body{
         color: white;
    
      }
+   
+  }
+
+
+
+  @media screen and (min-width: 400px) and (max-width: 437px) {
+
+    .profile{
+       
+      
+     margin-top: 25px;
+     font-size: 9px;
+     
+     margin-right: 4px;
+    }
+
+    .profile-inside{
+      width:27%;
+    
+      object-fit: cover;
+      margin-right: 0px;
+      margin-left: 10px;
+     
+    }
+
+    .headingimage{
+      
+      font-size: 25px;
+      
+ 
+   }
+
 
   }
+
+
