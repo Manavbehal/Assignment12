@@ -237,7 +237,7 @@ body{
   }
 
 
-  @media screen and (min-width: 400px) and (max-width: 1000px) {
+  @media screen and (min-width: 437px) and (max-width: 1000px) {
     .social-card {
    
       max-width:  85%;
@@ -264,7 +264,7 @@ body{
       }
       .profile{
        
-        width: 30vh;
+        width: 25vh;
         height: 45px;
         font-size: 9px;
        margin-top: 55px;
@@ -273,7 +273,7 @@ body{
   
 
       .profile-inside{
-        width:27%;
+        width:25%;
       
         object-fit: cover;
         margin-right: 1px;
@@ -296,8 +296,8 @@ body{
 
     .profile{
        
-      
-     margin-top: 25px;
+      width: 26vh;
+     margin-top: 55px;
      font-size: 9px;
      
      margin-right: 4px;
